@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Book Search</string>
+    <string name="search_by_keywords">Search by Keywords</string>
+    <string name="search">SEARCH</string>
+    <string name="no_internet">No internet connection.</string>
+    <string name="no_books">No books to show.</string>
+    <string name="empty_view_title_text">No search results found.</string>
+    <string name="empty_view_subtitle_text">Try modifying your keywords.</string>
+    <string name="try_reconnecting">Try reconnecting to the internet.</string>
+</resources>
