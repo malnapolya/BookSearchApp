@@ -1,4 +1,8 @@
-This app is made as the final project assignment for the Udacity Android Basics: Networking course.  
+## Book Search App  
+
+### Features  
+
+This app is made for the final project assignment of the Udacity Android Basics: Networking course.  
 
 The app uses the Google Books API to query the Books database by keywords and return the results.  
 
@@ -16,6 +20,8 @@ to open the Google Books website, containing more details on the book.
 If there are no results, the app warns the user. Since the query is done through the internet, if there is no internet, the user is warned.  
 
 ![No search results](screenshots/no_search_results.PNG) ![No internet](screenshots/no_internet.PNG)  
+
+### Technical notes  
 
 From the technical point of view, the app uses an ArrayAdapter to load the information from the individual Book objects into the ListView. An 
 AsyncTaskLoader takes care of getting the book data from the Google Books API. There is another AsyncTask that loads the images. The QueryUtils.java
